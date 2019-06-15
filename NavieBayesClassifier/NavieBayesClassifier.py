@@ -4,7 +4,7 @@
 
 import numpy as np
 
-class SimpleBayesClassifier:
+class NavieBayesClassifier:
     def __init__(self, lamb = 0):
         self.prior_prob_y = {}
         self.prior_prob_x = {}
@@ -79,7 +79,7 @@ if __name__ == '__main__':
     xy = np.array(xy)
 
 
-    sb_clf = SimpleBayesClassifier(1)
+    sb_clf = NavieBayesClassifier(1)
     sb_clf.fit(xy[:, (0,1)], xy[:, -1])
 
     print('x prob', sb_clf.prior_prob_x)
