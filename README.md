@@ -29,7 +29,7 @@
 
 <a name = "tool_data"></a>
 
-tool.data
+### tool.data
 
 - tool.data.pareto
   - 获取帕累托原理信息
@@ -46,14 +46,14 @@ tool.data
 
 <a name = "tool_np"></a>
 
-tool.np
+### tool.np
 
 - tool.np.get_real_cols_num
   - 获取ndarray的实际列数
 
 <a name = "tool_plot"></a>
 
-tool.plot
+### tool.plot
 
 - tool.plot.boxplot_multi_cols
   - 绘制每一列的箱线图
@@ -66,7 +66,7 @@ tool.plot
 
 <a name = "tool_tools"></a>
 
-tool.tools
+### tool.tools
 
 - tool.tools.euler_dist
   - 计算欧拉距离
