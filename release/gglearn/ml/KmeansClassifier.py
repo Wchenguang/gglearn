@@ -1,4 +1,7 @@
 # coding: utf-8
+
+import numpy as np
+
 class KmeansClassifier:
     def __init__(self, k, distance_method = "o", random_select = True, 
                     plot = False):

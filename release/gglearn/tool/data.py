@@ -1,3 +1,10 @@
+# coding: utf-8
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+from sklearn.model_selection import StratifiedShuffleSplit
+
 def pareto(dataframe, x_col, y_col, figsize=(10, 6)):
     '''
     func: DataFrame中的多个列，返回其帕托雷数据（二八原理）

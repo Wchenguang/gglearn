@@ -1,4 +1,10 @@
-def get_real_cols_num(self, arr):
+# coding: utf-8
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+def get_real_cols_num(arr):
     '''
     func: 获取数组的实际列数
     param: arr

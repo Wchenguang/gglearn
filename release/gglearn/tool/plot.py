@@ -1,4 +1,9 @@
 # coding: utf-8
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
 def boxplot_multi_cols(dataframe, per_line = 5, figsize = (8,3), columns = None):
     '''
     func: DataFrame中的多个列，展示其箱线图

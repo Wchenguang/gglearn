@@ -1,5 +1,7 @@
 # coding: utf-8
 
+import numpy as np
+
 class NavieBayesClassifier:
     def __init__(self, lamb = 0):
         '''

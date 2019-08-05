@@ -1,4 +1,7 @@
 # coding: utf-8
+
+import numpy as np
+
 class LinearRegression:
     def __init__(self, learning_rate = 0.1, method = "normal equation", 
                     derivative_method = "MSE", iteration_times = 100,

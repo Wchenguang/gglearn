@@ -1,4 +1,7 @@
-from FeatureImportance import *
+# coding: utf-8
+
+import numpy as np
+from gglearn.ml.FeatureImportance import *
 
 class DTNode:
     '''
@@ -196,10 +199,6 @@ class DTNode:
         return: None
         '''
         if(self._cart_build_exit()):
-         
-        '''
-        检测退出条件
-        '''
             return 
         '''
         构建子节点

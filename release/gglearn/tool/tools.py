@@ -1,11 +1,16 @@
 # coding: utf-8
-def euler_dist(self, x1, x):
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+def euler_dist(x1, x):
     '''
     func: 计算2个向量组每一行的欧拉距离
     '''
     return np.sqrt(np.multiply(x-x1, x-x1).sum())
     
-def manhattan_distance(self, x1, x):
+def manhattan_distance(x1, x):
     '''
     func: 计算2个向量组每一行的曼哈顿距离
     '''

@@ -1,5 +1,10 @@
 # coding: utf-8
 
+import math
+import operator
+from collections import Counter
+import numpy as np
+
 def entropy(y_values):
     '''
     func: 计算熵

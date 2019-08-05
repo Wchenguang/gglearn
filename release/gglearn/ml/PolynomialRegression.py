@@ -1,4 +1,7 @@
 # coding: utf-8
+
+import numpy as np
+
 class PolynomialRegression:
     '''
     func: 多项书回归，实现为线性回归

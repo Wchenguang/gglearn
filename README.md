@@ -1,5 +1,9 @@
 # gglearn
 
+<a href="#setup">安装方式</a>
+
+<a href="#sample">引用范例</a>
+
 <a href="#ml">机器学习模块—ml</a>
 
 <a href="#tool_data">数据处理工具模块—tool.data</a>
@@ -9,6 +13,43 @@
 <a href="#tool_plot">绘图工具模块—tool.plot</a>
 
 <a href="#tool_tools">常用工具模块—tool.tools</a>
+
+<a name="setup"></a>
+
+### 安装方式
+
+1. 查看库路径
+
+```python
+import sys
+print(sys.path[3])
+```
+
+* 通过以上代码，获取当前python环境的，调用库路径
+
+2. 下载最新版本gglearn并解压至以上路径
+
+*	下载地址：https://github.com/Wchenguang/gglearn/releases/download/v1.0/gglearn.zip
+
+3. 环境要求
+
+* python3
+
+<a name="sample"></a>
+
+### 引用范例
+
+* 机器学习库引用
+
+```python
+from gglearn.ml.AdaBoost import *
+```
+
+* 工具库引用
+
+```python
+from gglearn.tool.plot import *
+```
 
 <a name = "ml"></a>
 
