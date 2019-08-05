@@ -10,6 +10,10 @@
 
 <a href="#tool_tools">常用工具模块—tool.tools</a>
 
+<a name = "ml"></a>
+
+### ml
+
 - ml.AdaBoost
   - 梯度提升算法
 - ml.DecisionTree
@@ -22,8 +26,6 @@
   - 朴素贝叶斯分类器
 - ml.PolynomialRegression
   - 多项式回归算法
-
-tool Document
 
 <a name = "tool_data"></a>
 
