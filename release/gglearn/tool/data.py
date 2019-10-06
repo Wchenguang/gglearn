@@ -4,6 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.model_selection import StratifiedShuffleSplit
+from sklearn.decomposition import PCA
 
 def pareto(dataframe, x_col, y_col, figsize=(10, 6)):
     '''
