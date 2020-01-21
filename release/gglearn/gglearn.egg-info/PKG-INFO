@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: gglearn
+Version: 0.1.4
+Summary: Machine learning and data analysis library for Python 3
+Home-page: https://github.com/Wchenguang/gglearn/tree/master/release/gglearn
+Author: Mr_W1997
+Author-email: mr_w1997@163.com
+License: MIT Licence
+Description: Machine learning and data analysis library for Python 3！
+Keywords: learning,analyze,data,learn,gg
+Platform: any
